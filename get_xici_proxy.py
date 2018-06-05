@@ -10,7 +10,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 #设置要抓取的页面范围，以下为1-4页。
-nb = list(range(1,51))
+nb = list(range(1,5))
 
 #抓取的链接
 url = 'http://www.xicidaili.com/nn/'
