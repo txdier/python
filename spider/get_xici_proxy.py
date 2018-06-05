@@ -114,7 +114,7 @@ while type:
 			#只有响应代码在200-300之间才说明该代理IP可用，才会写入指定的文件中
 			# if r.status_code >= 200 and r.status_code < 300:
 			if r.status_code == 200:
-				# print(url + ' ' + l + ' 这个代理可用！')
+				# print(proxy_url + ' ' + l + ' 这个代理可用！')
 				with open("it_works.txt", 'a') as f:
 					f.write(t + '\t')
 					f.write(i + '\t')
